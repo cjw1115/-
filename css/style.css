@@ -172,8 +172,8 @@ nav:hover {
 
 /* Codrops Header Style */
 .codrops-top {
-    line-height: 48px;
-    font-size: 11px;
+    display: inline-block;
+    font-size: 13px;
     background: transparent;
     text-transform: uppercase;
     z-index: 9999;
@@ -194,6 +194,7 @@ nav:hover {
 }*/
 .codrops-top ul li{
     list-style: none;
+    
 }
 .codrops-top ul{
     margin: 0;
@@ -205,16 +206,17 @@ nav:hover {
     padding:0 20px; 
     transform: skew(-15deg);
     cursor: pointer;
+    background-color: rgba(130, 125, 125, 0.67);
 }
 .codrops-top li a{
     display: block;
     transform: skew(15deg);
 }
 .codrops-top .selected{
-    background: rgba(255, 255, 255, 0.6)
+    background: rgba(31, 31, 31, 0.72)
 }
 .codrops-top li:hover{
-    background: rgba(255, 255, 255, 0.6)
+    background: rgba(31, 31, 31, 0.72)
 }
 
 .icon{
@@ -350,5 +352,9 @@ nav:hover {
 }
 .video-title{
     font-size: 1em;
+}
+
+.icon{
+    width: 75px;
 }
 }

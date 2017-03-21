@@ -1,0 +1,58 @@
+/**
+ * PgwMenu - Version 2.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwMenu {  height: 40px; position: relative; list-style: none;}
+.pgwMenu ul { list-style: none; white-space: nowrap; margin: 0; padding: 0;}
+.pgwMenu li { float: left;}
+.pgwMenu a{ display: inline-block; color: #fff; line-height: 40px; padding: 0 12px; width: 100%; text-decoration: none;}
+.pgwMenu a.selected { background: #777;}
+.PgwMenu .pm-links{
+    display: inline-block;
+}
+.pgwMenu .pm-links.mobile,
+.pgwMenu .pm-viewMore > ul { background:  rgba(130, 125, 125, 0.67);;  position: absolute; right: 0; top: 100%; z-index: 1000;}
+.pgwMenu .pm-viewMore { display: none; position: relative;}
+.pgwMenu .pm-viewMore > a { display: inline-block;}
+.pgwMenu .pm-viewMore > ul { left: auto; right: 0;}
+.pgwMenu .pm-viewMore li { float: none;}
+.pgwMenu .pm-viewMore span.icon,
+.pgwMenu .pm-viewMore span.white { border-color: #fff transparent; border-style: solid; border-width: 8px 6px 0; margin-left: 3px; display: inline-block;}
+.pgwMenu.light .pm-viewMore span.icon,
+.pgwMenu .pm-viewMore span.black { border-color: #000 transparent; border-style: solid; border-width: 8px 6px 0; margin-left: 3px; display: inline-block;}
+.pgwMenu .pm-links.mobile li,
+.pgwMenu .pm-viewMore > ul > li { display: inline-block; clear: both; width: 100px;transform: skew(0);font-size: 13px;}
+.pgwMenu .pm-dropDown,
+.pgwMenu .pm-viewMore,
+.pgwMenu .pm-viewMore > ul { display: none;}
+.pgwMenu .pm-dropDown a { display: inline-block; background:transparent;transform: skew(0)}
+.pgwMenu .pm-dropDown a.active,
+.pgwMenu .pm-viewMore a.active { background: #666;}
+.pgwMenu .pm-dropDown{
+    width: 100px;
+    margin-left: auto;
+    margin-right: 0px;
+    background: transparent;
+}
+
+.pgwMenu .pm-dropDown span.icon,
+.pgwMenu .pm-dropDown span.white {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABKSURBVEhL7ZOxDQAwCMN6O4/T0tmjsxHJDB4yROJ0dz3s1BRHEi2OTREBpQFKA5QGKA3m7IP8RKeIgNIApQFKA5QGc/ZBfkJTdF0oUafLBAFNbAAAAABJRU5ErkJggg==) no-repeat;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin: 9px 5px;
+}
+
+.pgwMenu.light .pm-dropDown span.icon,
+.pgwMenu .pm-dropDown span.black {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABpSURBVEhL7ZPLCcAwDEM9jefI/ks1Hyj2QbiGSLcKHggl8sEktjTc/WGyZxo6YKAbrFzFoav3/hdhmsrlijBN5XJFmKZyuSJMU7lcsfV/kIN0FRJgyACGDGDIAIYMpK8CHt6iG6xZhY0JIJ+6AHGbUFsAAAAASUVORK5CYII=) no-repeat;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin: 9px 5px;
+}
