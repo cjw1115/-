@@ -6,7 +6,7 @@
  *
  * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
  */
-.pgwMenu {  height: 40px; position: relative; list-style: none;}
+.pgwMenu {  height: 40px; position: relative; list-style: none;margin-right: 4px;margin-top:4px; }
 .pgwMenu ul { list-style: none; white-space: nowrap; margin: 0; padding: 0;}
 .pgwMenu li { float: left;}
 .pgwMenu a{ display: inline-block; color: #fff; line-height: 40px; padding: 0 12px; width: 100%; text-decoration: none;}
@@ -31,7 +31,7 @@
 .pgwMenu .pm-viewMore > ul { display: none;}
 .pgwMenu .pm-dropDown a { display: inline-block; background:transparent;transform: skew(0)}
 .pgwMenu .pm-dropDown a.active,
-.pgwMenu .pm-viewMore a.active { background: #666;}
+.pgwMenu .pm-viewMore a.active { background:rgba(140, 134, 134, 0.72);}
 .pgwMenu .pm-dropDown{
     width: 100px;
     margin-left: auto;

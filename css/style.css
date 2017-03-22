@@ -315,9 +315,13 @@ nav:hover {
     color:black;
     text-align: center;
     padding:10px 0; 
+    font-size: small;
 }
 .infoLogo{
     text-align: right;
+}
+.infoLogo img{
+    width: 60px;vertical-align: middle;
 }
 .info{
     text-align: left;
@@ -356,5 +360,15 @@ nav:hover {
 
 .icon{
     width: 75px;
+}
+
+.head{
+    margin: 0;
+    padding: 4px;
+    font-size: large;
+    transform:  skew(-20deg) translate(-180px)
+}
+.panel2 .introduct .head{
+    transform:  skew(-20deg) translate(-180px,15px)
 }
 }
