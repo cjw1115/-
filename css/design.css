@@ -1,0 +1,80 @@
+svg {
+  z-index: 99999;
+  transition: all .3s ease;
+  display: inline-block;
+  margin: 0;
+}
+#leftsvg{
+    width: 15px;
+  height: 15px;
+}
+#rightsvg{
+    width: 5px;
+  height: 15px;
+}
+svg g {
+  transition: all .3s ease;
+  /*width: 10px;
+  height: 10px;*/
+  display: block;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+svg rect {
+  transition: all .3s ease;
+  fill: rgba(17, 17, 17, 0.78);
+}
+
+.header{
+    position: relative;
+    background: white;
+}
+.icon{
+position: relative;
+}
+.codrops-top{
+   
+}
+.designshow{
+    background: white;
+}
+.designshow label{
+    font-weight: 100;
+}
+.designshow ul li{
+    list-style: none;
+
+    float: none;
+    display: inline-block;
+    
+}
+.designshow ul{
+    text-align: center;
+    overflow: hidden;
+}
+.designshow .title{
+    color: black;
+
+}
+.designshow{
+    text-align: center;
+    position: relative;
+}
+.designshow img{
+width: 80%;
+display:inline-block;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.designshow span{
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    font-size: small;
+}
+@media screen and (max-width: 666px){
+    
+.designshow img{
+width: 100%;}
+}

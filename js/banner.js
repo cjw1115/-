@@ -47,8 +47,8 @@
             });
 
             //自动播放
-            var timerDuration=3500;
-            var timer=setInterval(AutoPlay,3500);
+            var timerDuration=2500;
+            var timer=setInterval(AutoPlay,timerDuration);
             function AutoPlay(){
                 if(!isTransitioning){
                     next();

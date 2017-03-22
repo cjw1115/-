@@ -29,7 +29,7 @@
 .pgwMenu .pm-dropDown,
 .pgwMenu .pm-viewMore,
 .pgwMenu .pm-viewMore > ul { display: none;}
-.pgwMenu .pm-dropDown a { display: inline-block; background:transparent;transform: skew(0)}
+.pgwMenu .pm-dropDown a { display: inline-block; background:rgba(0, 0, 0, 0.7);transform: skew(0)}
 .pgwMenu .pm-dropDown a.active,
 .pgwMenu .pm-viewMore a.active { background:rgba(140, 134, 134, 0.72);}
 .pgwMenu .pm-dropDown{

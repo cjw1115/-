@@ -30,10 +30,10 @@
                    $(this).addClass("selected");
                });
             });
-            
+
             $(".codrops-top ul li").click(function() {
-            $("a",this)[0].click();
-        });
+                $("a",this)[0].click();
+            });
            }
     </script>
     <script type="text/javascript" src="js/pgwmenu.js"></script>
@@ -50,21 +50,31 @@
     <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
     <script src="js/jquery.imagesloaded.min.js"></script>
     <script src="js/jquery.transit.min.js"></script>
-    <script src="js/banner.js"></script>
+
     <!--<script type="text/javascript" src="js/crossmenu.js"></script>-->
     <link rel="stylesheet" href="css/crossmenu.css"/>
-    
+    <link rel="stylesheet" href="css/design.css"/>
     
 </head>
-<body> 
-    <div class="icon">
+<body>
+    <!--<ul class="pgwMenu">
+         <li class="selected"><a href="#">主页</a></li>
+        <li><a href="#">设计</a></li>
+        <li><a href="#">科技</a></li>
+        <li><a href="#">公益</a></li>
+        <li><a href="#">梦想</a></li>
+        <li><a href="#">购买</a></li>
+        <li><a href="#">联系</a></li>
+    </ul> -->
+    <div class="header">
+        <div class="icon">
             <img src="icon/logo.png"/>
-            </div>
+        </div>
         <!-- Codrops top bar -->
         <div class="codrops-top">
                 <ul class="pgwMenu" style="display: inline-block">
-                <li class="selected"><a href="index.html">主页</a></li>
-                <li><a href="design.html">设计</a></li>
+                <li><a href="index.html">主页</a></li>
+                <li class="selected"><a href="design.html">设计</a></li>
                 <li><a href="#">科技</a></li>
                 <li><a href="#">公益</a></li>
                 <li><a href="#">梦想</a></li>
@@ -72,56 +82,6 @@
                 <li><a href="#">联系</a></li>
             </ul>
         </div>
-    <div class="panel1">
-
-        <div class="wrapper">
-            <div class="screen" id="screen-0" >
-                <img src="img/img5.png" class="big-image" />
-                <h1 class="video-title">CEO与俞敏洪老师探讨创业想法</h1>
-            </div>
-            <div class="screen" id="screen-1">
-                <img src="img/img1.png" class="big-image" />
-                <h1 class="video-title">任性，为了梦想</h1>
-            </div>
-            <div class="screen" id="screen-2" >
-                <img src="img/img2.png" class="big-image" />
-                <h1 class="video-title">公司主持参与的项目“古道建筑保护协会”荣获2016全国创青春创业大赛金奖</h1>
-            </div>
-            <div class="screen" id="screen-3" >
-                <img src="img/img3.png" class="big-image" />
-               <h1 class="video-title">首家零售店-“创意盒子”格子铺</h1>
-            </div>
-            <div class="screen" id="screen-4" >
-                <img src="img/img4.png" class="big-image" />
-                <h1 class="video-title">向团中央书记处书记徐晓、国家林业局副局长彭有冬 介绍项目</h1>
-            </div>
-            <div class="screen" id="screen-5" >
-                <img src="img/img5.png" class="big-image" />
-                <h1 class="video-title">CEO与俞敏洪老师探讨创业想法</h1>
-            </div>
-            <div class="screen" id="screen-6">
-                <img src="img/img1.png" class="big-image" />
-                <h1 class="video-title">任性，为了梦想</h1>
-            </div>
-        </div>
-
-        <div class="navPoint">
-                <a class="sel" id="1"/>
-                <a class="nosel" id="2"/>
-                <a class="nosel" id="3"/>
-                <a class="nosel" id="4"/>
-                <a class="nosel" id="5"/>
-        </div>
-
-        <nav id="next-btn">
-            <a href="#" class="next-icon"></a>
-        </nav>
-        <nav id="prev-btn">
-            <a href="#" class="prev-icon"></a>
-        </nav>
-
-        
-        
     </div>
     <div class="panel2" >
         <div class="introduct">
@@ -130,18 +90,36 @@
             </span>
             <span class="content">
                 <p>
-                北京创衣创意设计有限责任公司（CY DESIGN）主线开发校园文化创意产品，承接一系列创意类产品的设计和制作工作，同时开发一系列自主产品，类型涵盖科技创意，人工智能，交互设计，社会公益等。目前已于数十家高校开展合作，在多个高校设有代理点（分工作室）。公司成立至今已有成熟的运营模式和专业的技术支持，业务精湛，与多家企业展开合作。公司项目曾荣获2016“创青春”全国大学生创业大赛金奖，受邀参与北京国际文化创意产业博览会，年资金流入达百万。
+                校园，是每一个人在人生当中的必经一站，中国的很多高校已经有了几十年的历史，有了一定的历史、文化沉淀，然而在这个高速发展的信息化时代当中，似乎人们的目标都变成了“更快”、“智能”……反而忽视了文化的沉淀。我们所做了，便是尽自己有限的能力去围绕高校文化这一个点，将文化物化为具体形象或产品，在高速发展的信息时代中也能同步将我们这个时代对于文化的理解留下一个印记，同时我们也在过程中融入了更多创意元素，使校园文化产品变得更加丰富多彩。
                 </p>
             </span>
         </div>
-        <div class="partner">
-            <span class="head">
-                <label>合作伙伴</label>
+    </div>
+    <div class="designshow">
+        <!--<div>
+            <span class="title">
+                <svg id="leftsvg">
+                    <g id='cross_svg'>    
+                        <rect id='Rectangle-1'  x='0' y='0' width='15' height='15' fill='rgba(34, 139, 171, 0.94)'></rect> 
+                    </g>
+                </svg>
+                <label>平面化北京工业大学建筑实际案例</label>
+                <svg id="rightsvg">
+                    <g id='cross_svg'>    
+                        <rect id='Rectangle-1'  x='0' y='0' width='5' height='15' fill='rgba(34, 139, 171, 0.94)'></rect> 
+                    </g>
+                </svg>
             </span>
             <div class="content">
-                <img  src="icon/partner.png"/>
+                <ul>
+                    <li></li>
+                </ul>
             </div>
-        </div>
+        </div>-->
+        <img src="img/design.jpg"/>
+        <span>
+            版权归北京创衣创意设计有限责任公司所有，请勿私自使用
+        </span>
     </div>
     <div class="container-fluid panel3">
         <div class="row bottom">
@@ -168,7 +146,6 @@
 				</div>
 			</div>
 		</div>
-        
     </div>
 
    
